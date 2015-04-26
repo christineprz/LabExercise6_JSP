@@ -19,11 +19,19 @@ cursor: pointer;
 z-index: 2;
 border-radius:215px;
 top: 20%;
-left:55%;
+left:60%;
 background: transparent;
+-webkit-animation: mymove 5s ;
 
 }
 
+
+#car {-webkit-animation-timing-function: ease-out;}
+
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 799px;}
+}
 
 img 
 {
